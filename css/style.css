@@ -1,0 +1,20 @@
+header{
+    background-color: #2B4074;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+.logo{
+    width: 100px;
+    height: 65px;
+    padding:17px 0 17px 61px;
+}
+.burger{
+    margin: 30px 150px 30px 0;
+    width: 40px;
+    height: 40px;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
