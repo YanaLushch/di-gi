@@ -5,165 +5,181 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@100;300;400;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <header>
-      <img src="images/logo.png" alt="di-gi logo" class="logo"></img>
-      <button class="burger"> <i class="fas fa-bars"></i></div>
+      <img src="images/logo.png" alt="di-gi logo" class="logo" />
+      <button class="burger"><i class="fas fa-bars"></i></button>
     </header>
     <div class="container">
-      <section>
-        <div class="body">
+      <div class="top-banner">
+        <div class="top-banner-intro">
           <h1>Мысли глобально</h1>
           <p>
             Di Gі - это диджитал агентство полного цикла, направленное на самый
             лучший результат наших клиентов в маркетинге, продажах и управлении
           </p>
           <button>Подробнее</button>
+          <div></div>
         </div>
-        <div></div>
         <div class="carousel">
-          <button class="next"></button>
-          <button class="prex"></button>
+          <button class="next carousel-btn">&#5176;</button>
+          <button class="prev carousel-btn">&#5171;</button>
         </div>
-        <footer>
-          <div class="info">
-            <div class="bold-header">Вы полюбите нас с первой встречи!</div>
-            <div class="content-p">
+      </div>
+      <footer>
+        <div class="footer-section">
+          <div class="footer-info">
+            <div class="footer-header">Вы полюбите нас с первой встречи!</div>
+            <div class="footer-content">
               Мы предоставляем комплексный подход к продвижению компании,
               продуктов и услуг в цифровой сфере.
             </div>
           </div>
           <button>Перезвоните мне</button>
-        </footer>
-      </section>
-    
-    <section>
-      <div class="info">
-        <div class="content-header">Сервис</div>
-        <div class="content-sub-header">
+        </div>
+      </footer>
+    </div>
+    <section class="service">
+      <div class="service-info">
+        <div class="service-header">Сервис</div>
+        <div class="service-sub-header">
           От идеи до незабываемого и измеримого результата.
         </div>
-        <div class="content-p">
+        <hr>
+        <div class="service-p">
           Интеграция безупречного производства, передовых технологий и
           тщательного измерения производительности
         </div>
       </div>
-      <div class="feature-box">
-        <div>
-          <div class="icon"></div>
+      <div class="feature-boxes">
+        <div class="one-box box-1">
           <p class="feature-header">Стратегия</p>
           <div class="feature-info">Создадим уникальный и удобный дизайн</div>
-          <button>Подробнее</button>
+          <button class="feature-btn">Подробнее</button>
         </div>
-        <div>
-          <div class="icon"></div>
+        <div class="one-box box-2">
           <p class="feature-header">Анализ</p>
           <div class="feature-info">Создадим уникальный и удобный дизайн</div>
-          <button>Подробнее</button>
+          <button class="feature-btn">Подробнее</button>
         </div>
-        <div>
-          <div class="icon"></div>
+        <div class="one-box box-3">
           <p class="feature-header">Соц сети</p>
           <div class="feature-info">Создадим уникальный и удобный дизайн</div>
-          <button>Подробнее</button>
+          <button class="feature-btn">Подробнее</button>
         </div>
-        <div>
-          <div class="icon"></div>
+        <div class="one-box box-4">
           <p class="feature-header">Развитие</p>
           <div class="feature-info">Создадим уникальный и удобный дизайн</div>
-          <button>Подробнее</button>
+          <button class="feature-btn">Подробнее</button>
         </div>
-        <div>
-          <div class="icon"></div>
+        <div class="one-box box-5">
           <p class="feature-header">Контент</p>
           <div class="feature-info">Создадим уникальный и удобный дизайн</div>
-          <button>Подробнее</button>
+          <button class="feature-btn">Подробнее</button>
         </div>
-        <div>
-          <div class="icon"></div>
+        <div class="one-box box-6">
           <p class="feature-header">Дизайн UX</p>
           <div class="feature-info">Создадим уникальный и удобный дизайн</div>
-          <button>Подробнее</button>
+          <button class="feature-btn">Подробнее</button>
         </div>
-        <div>
-          <div class="icon"></div>
+        <div class="one-box box-7">
           <p class="feature-header">Таргетированная реклама</p>
           <div class="feature-info">Создадим уникальный и удобный дизайн</div>
-          <button>Подробнее</button>
+          <button class="feature-btn">Подробнее</button>
         </div>
-        <div>
-          <div class="icon"></div>
+        <div class="one-box box-8">
           <p class="feature-header">Продукт</p>
           <div class="feature-info">Создадим уникальный и удобный дизайн</div>
-          <button>Подробнее</button>
+          <button class="feature-btn">Подробнее</button>
         </div>
       </div>
     </section>
-    <section>
-      <div class="content-header">
-        Наши Проекты
-      </div>
-      <div class="proj-gallery">
-        <div class="gallery-item">
-          <div class="proj-picture"></div>
-          <div class="proj-name"></div>
-        </div>
-        <div class="gallery-item">
-          <div class="proj-picture"></div>
-          <div class="proj-name"></div>
-        </div>
-        <div class="gallery-item">
-          <div class="proj-picture"></div>
-          <div class="proj-name"></div>
-        </div>
-        <div class="gallery-item">
-          <div class="proj-picture"></div>
-          <div class="proj-name"></div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="info">
+    <div class="container">
+      <section>
         <div class="content-header">
-          Команда
+          Наши Проекты
         </div>
+        <div class="proj-gallery">
+          <div class="gallery-item">
+            <div class="proj-picture"></div>
+            <div class="proj-name"></div>
+          </div>
+          <div class="gallery-item">
+            <div class="proj-picture"></div>
+            <div class="proj-name"></div>
+          </div>
+          <div class="gallery-item">
+            <div class="proj-picture"></div>
+            <div class="proj-name"></div>
+          </div>
+          <div class="gallery-item">
+            <div class="proj-picture"></div>
+            <div class="proj-name"></div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="info">
+          <div class="content-header">
+            Команда
+          </div>
+          <div class="content-p">
+            Наша команда - это наша самая большая ценность. Мы трудились, чтобы
+            собрать группу экспертов, чьи навыки дополняют друг друга. У членов
+            нашей команды разные истории, но мы разделяем общую страсть к
+            идеалу. Мы верим, чтобы оставаться профессионалом, нужно
+            развиваться, поэтому мы постоянно ищем способы, как стать лучше в
+            том, что мы делаем.
+          </div>
+          <button>Смотреть видео</button>
+        </div>
+        <div class="picture"></div>
+      </section>
+      <section>
+        <div class="content-header">Последние Новости</div>
+        <div class="Masonry Layout"></div>
+      </section>
+      <section>
+        <div class="quoteation-mark"></div>
+        <div class="content-sub-header">
+          Если нужно создавать либо повышать имидж компании, то
+          диджитал-маркетинг является наиболее подходящим
+        </div>
+        <div class="proj-name"></div>
+        <div class="scroll-bar"></div>
+      </section>
+      <section>
+        <div class="logo"></div>
         <div class="content-p">
-          Наша команда - это наша самая большая ценность. Мы трудились, чтобы
-          собрать группу экспертов, чьи навыки дополняют друг друга. У членов
-          нашей команды разные истории, но мы разделяем общую страсть к идеалу.
-          Мы верим, чтобы оставаться профессионалом, нужно развиваться, поэтому
-          мы постоянно ищем способы, как стать лучше в том, что мы делаем.
+          Мы хотели бы услышать все о вашем проекте. Свяжись с нами.
         </div>
-        <button>Смотреть видео</button>
-      </div>
-      <div class="picture"></div>
-    </section>
-    <section>
-      <div class="content-header">Последние Новости</div>
-      <div class="Masonry Layout"></div>
-    </section>
-    <section>
-      <div class="quoteation-mark"></div>
-      <div class="content-sub-header">
-        Если нужно создавать либо повышать имидж компании, то диджитал-маркетинг
-        является наиболее подходящим
-      </div>
-      <div class="proj-name"></div>
-      <div class="scroll-bar"></div>
-    </section>
-    <section>
-      <div class="logo"></div>
-      <div class="content-p">Мы хотели бы услышать все о вашем проекте.
-        Свяжись с нами.</div>
         <table>
-          <tr>facebook</tr>
-          <tr>google</tr>
-          <tr>twitter</tr>
-          <tr>pinterest</tr>
+          <tr>
+            facebook
+          </tr>
+          <tr>
+            google
+          </tr>
+          <tr>
+            twitter
+          </tr>
+          <tr>
+            pinterest
+          </tr>
         </table>
         <div class="additional-info">
           <div class="contacts">
@@ -176,14 +192,16 @@
           </div>
           <div class="help">
             <p class="additional-header">ПОМОЩЬ</p>
-            <p class="detailed-info">Как с нами связаться? Что такое диджитал? Стоимость услуг</p>
+            <p class="detailed-info">
+              Как с нами связаться? Что такое диджитал? Стоимость услуг
+            </p>
           </div>
           <div class="menu">
             <p class="additional-header">МЕНЮ</p>
             <p class="detailed-info">Наши проекты Команда Блог</p>
           </div>
         </div>
-    </section>
+      </section>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
