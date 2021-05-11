@@ -6,6 +6,7 @@
   --gray-font-color: #797979;
   --table-border: #7ebf84;
   --almost-black: #4a4a4a;
+  --light-yellow: #f9f6e5;
   /* font sizes*/
   --largest-font-size: 96px;
   --base-font-size: 18px;
@@ -55,7 +56,9 @@ header {
 .top-banner::before,
 .top-banner::after,
 footer::before,
-.projects::before {
+.projects::before,
+.news::before,
+.contact::before {
   content: "";
   display: block;
   width: 100vw;
@@ -105,7 +108,8 @@ button {
   border: 0px solid transparent;
   text-shadow: 0px 0px 0px transparent;
 }
-.top-banner-intro button {
+.top-banner-intro button,
+.team-info button {
   font-family: var(--font-family-Roboto);
   background: var(--main-dark-color);
   color: var(--main-light-color);
@@ -257,7 +261,8 @@ footer::before {
   height: 8px;
   background-color: var(--main-dark-color);
 }
-.service-p {
+.service-p,
+.team-p {
   margin-top: 34.9px;
   font-family: var(--font-family-Roboto);
   font-weight: 400;
@@ -319,12 +324,170 @@ footer::before {
   display: flex;
   height: 580px;
 }
-.team-img{
-    background: url(../images/team.png)no-repeat 50% 40%;
-    width: 470px;
-    height: 430px;
+.team-img {
+  background: url(../images/team.png) no-repeat 50% 40%;
+  width: 470px;
+  height: 430px;
 }
-.team-info{
-    width: 500px;
+.team-info {
+  width: 500px;
+  margin-left: 60px;
+}
+.team-header,
+.news-header {
+  font-family: var(--font-family-Roboto-Condensed);
+  font-weight: 400;
+  font-size: 48px;
+}
+.team-info button {
+  width: 230px;
+  padding: 0;
+  margin-top: 40px;
+}
+.team-p {
+  color: #9b9b9b;
+}
+.news .blue{
+    margin: auto;
+    margin-top: 19px;
+}
+.news-header {
+  text-align: center;
+  padding-top: 52px;
+  width: 100%;
+}
+.news::before {
+  background-color: var(--light-yellow);
+  height: 920px;
+  z-index: -1;
+}
+.news {
+  box-sizing: border-box;
+  height: 920px;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+}
+.masonry {
+  column-count: 4;
+  column-gap: 10px;
+  padding-top: 108px;
+}
+.news-item {
+  display: inline-block;
+  position: relative;
+  margin: 0px 10px 10px 0;
+}
+figcaption {
+  position: absolute;
+  background: var(--white-color);
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0 10px 16px;
+  box-sizing: border-box;
+  font-family: var(--font-family-Roboto-Condensed);
+  font-weight: 700;
+  color: var(--almost-black);
+  font-size: 16px;
+  letter-spacing: 2px;
+  border-radius: 0 0 4px 4px;
+}
+.quote {
+  height: 480px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 100px 40px 0 4px;
+}
+.quote-mark {
+  font-size: 34px;
+  font-weight: 400;
+  color: var(--main-dark-color);
+}
+.quote-text,
+.quote-text span,
+.quote-author {
+  padding-top: 30px;
+  font-family: var(--font-family-Roboto-Condensed);
+  font-weight: 400;
+  font-size: 36px;
+}
+.quote-text span {
+  font-weight: 700;
+  color: var(--main-dark-color);
+}
+.quote-author {
+  font-weight: 700;
+  font-size: 24px;
+}
+.contact {
+  box-sizing: border-box;
+  position: relative;
+}
+.contact::before {
+  background-color: var(--main-dark-color);
+  height: 639px;
+  z-index: -1;
+}
+.contact-logo {
+  position: absolute;
+  background-color: var(--main-dark-color);
+  background-image: url(../images/logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 35% 90%;
+  border-radius: 3px;
+  top: -30px;
+  left: calc(50% - 100px);
+  width: 230px;
+  height: 60px;
+}
+.contact-text {
+  padding-top: 158px;
+  width: 70%;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: var(--font-family-Roboto);
+  color: var(--white-color);
+  letter-spacing: 2px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 50px auto;
+}
+th {
+  color: var(--white-color);
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid #7ebf84;
+  text-align: left;
+  font-size: 18px;
+  border-right: 0px solid;
+  text-align: center;
+}
+th:first-child {
+  border-left: 0;
+}
+.additional-info{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-header{
+    font-family: var(--font-family-Roboto-Condensed);
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--light-yellow);
+}
+.contact-info{
+    font-size: 12px;
+    color: var(--white-color);
+    font-family: var(--font-family-Roboto);
+}
+td{
+    vertical-align: top;
+    padding-top: 80px;
 }
 

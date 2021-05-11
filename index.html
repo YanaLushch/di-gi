@@ -59,7 +59,7 @@
         <div class="service-sub-header">
           От идеи до незабываемого и измеримого результата.
         </div>
-        <hr  class="blue"/>
+        <hr class="blue" />
         <div class="service-p">
           Интеграция безупречного производства, передовых технологий и
           тщательного измерения производительности
@@ -114,7 +114,7 @@
           <div class="content-header">
             Наши Проекты
           </div>
-          <hr class="white">
+          <hr class="white" />
           <div class="proj-gallery">
             <div class="gallery-item">
               <div class="proj-1 proj-pic"></div>
@@ -141,6 +141,7 @@
           <div class="team-header">
             Команда
           </div>
+          <hr class="blue" />
           <div class="team-p">
             Наша команда - это наша самая большая ценность. Мы трудились, чтобы
             собрать группу экспертов, чьи навыки дополняют друг друга. У членов
@@ -152,57 +153,86 @@
           <button>Смотреть видео</button>
         </div>
       </section>
-      <section>
-        <div class="content-header">Последние Новости</div>
-        <div class="Masonry Layout"></div>
-      </section>
-      <section>
-        <div class="quoteation-mark"></div>
-        <div class="content-sub-header">
-          Если нужно создавать либо повышать имидж компании, то
-          диджитал-маркетинг является наиболее подходящим
+      <section class="news">
+        <div class="news-info">
+          <div class="news-header">Последние Новости</div>
+          <hr class="blue" />
+          <div class="masonry">
+            <div class="news-item">
+              <img src="./images/news-1.png" alt="3Д в брендинге" />
+              <figcaption class="news-title">3Д в брендинге</figcaption>
+            </div>
+            <div class="news-item">
+              <img src="./images/news-5.png" alt="Графика" />
+              <figcaption class="news-title">Графика</figcaption>
+            </div>
+            <div class="news-item">
+              <img src="./images/news-2.png" alt="Уникальный дизайн" />
+              <figcaption class="news-title">Уникальный дизайн</figcaption>
+            </div>
+            <div class="news-item">
+              <img src="./images/news-6.png" alt="Соц сети и их польза" />
+              <figcaption class="news-title">Соц сети и их польза</figcaption>
+            </div>
+            <div class="news-item">
+              <img src="./images/news-3.png" alt="Контекстная реклама" />
+              <figcaption class="news-title">Контекстная реклама</figcaption>
+            </div>
+            <div class="news-item">
+              <img src="./images/news-7.png" alt="Корпоративная культура" />
+              <figcaption class="news-title">Корпоративная культура</figcaption>
+            </div>
+            <div class="news-item">
+              <img src="./images/news-4.png" alt="Взгляд со стороны" />
+              <figcaption class="news-title">Взгляд со стороны</figcaption>
+            </div>
+            <div class="news-item">
+              <img src="./images/news-8.png" alt="Эксклюзивность" />
+              <figcaption class="news-title">Эксклюзивность</figcaption>
+            </div>
+          </div>
         </div>
-        <div class="proj-name"></div>
+      </section>
+      <section class="quote">
+        <div class="quote-mark"><i class="fas fa-quote-right"></i></div>
+        <div class="quote-text">
+          Если нужно создавать либо повышать имидж компании, то
+          <span>диджитал-маркетинг</span> является наиболее подходящим
+        </div>
+        <div class="quote-author">-Маргарита Акулич</div>
         <div class="scroll-bar"></div>
       </section>
-      <section>
-        <div class="logo"></div>
-        <div class="content-p">
-          Мы хотели бы услышать все о вашем проекте. Свяжись с нами.
-        </div>
-        <table>
-          <tr>
-            facebook
-          </tr>
-          <tr>
-            google
-          </tr>
-          <tr>
-            twitter
-          </tr>
-          <tr>
-            pinterest
-          </tr>
-        </table>
-        <div class="additional-info">
-          <div class="contacts">
-            <p class="additional-header">КОНТАКТЫ</p>
-            <p class="detailed-info">+80 555 55 66 digi@gmail.com</p>
+      <section class="contact">
+        <div class="contact-info">
+          <div class="contact-bg"></div>
+          <!-- <img src="images/logo.png" alt="di-gi " class="logo contact-logo" /> -->
+          <div class="contact-text">
+            Мы хотели бы услышать все о вашем проекте. Свяжись с нами.
           </div>
-          <div class="address">
-            <p class="additional-header">АДРЕС</p>
-            <p class="detailed-info">Пр. Науки 107 Kиев / Украина</p>
-          </div>
-          <div class="help">
-            <p class="additional-header">ПОМОЩЬ</p>
-            <p class="detailed-info">
-              Как с нами связаться? Что такое диджитал? Стоимость услуг
-            </p>
-          </div>
-          <div class="menu">
-            <p class="additional-header">МЕНЮ</p>
-            <p class="detailed-info">Наши проекты Команда Блог</p>
-          </div>
+          <table>
+            <thead>
+              <tr>
+                <th><i class="fab fa-facebook-f"></i></td>
+                <th><i class="fab fa-google-plus-g"></i></th>                
+                <th><i class="fab fa-twitter"></i></th>
+                <th><i class="fab fa-pinterest"></i></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-column="First Name"><p class="contact-header">КОНТАКТЫ</p>
+                  <p class="contact-info">+80 555 55 66 digi@gmail.com</p></td>
+                <td data-column="Last Name"><p class="contact-header">АДРЕС</p>
+                  <p class="contact-info">Пр. Науки 107 Kиев / Украина</p></td>
+                <td data-column="Job Title"><p class="contact-header">ПОМОЩЬ</p>
+                  <p class="detailed-info">Как с нами связаться?</p>
+                  <p class="contact-info">Что такое диджитал?</p>
+                  <p class="contact-info">Стоимость услуг</p></td>
+                <td data-column="Twitter"><p class="contact-header">МЕНЮ</p>
+                  <p class="contact-info">Наши проекты Команда Блог</p></td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </section>
     </div>
