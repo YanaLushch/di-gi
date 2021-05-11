@@ -471,10 +471,6 @@ th {
 th:first-child {
   border-left: 0;
 }
-.additional-info{
-    display: flex;
-    justify-content: space-between;
-}
 .contact-header{
     font-family: var(--font-family-Roboto-Condensed);
     font-size: 16px;
