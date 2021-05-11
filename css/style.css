@@ -44,6 +44,7 @@ header {
   margin: 30px 150px 30px 0;
   width: 40px;
   height: 40px;
+  border-radius: 3px;
 }
 .container {
   width: 960px;
